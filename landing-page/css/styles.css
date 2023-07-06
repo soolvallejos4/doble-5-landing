@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: polly-bold ;
+    src: url(../fuentes/PollyRounded-Bold.otf);
+}
+@font-face {
+    font-family: polly-light ;
+    src: url(../fuentes/PollyRounded-Light.otf);
+}
+@font-face {
+    font-family: benzin;
+    src: url(../fuentes/benzin-bold.ttf);
+}
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin:auto;
+}
+h1 {
+    font-size: 0px;
+}
+#banner h2 {
+    color: white;
+    font-family:polly-light ;
+    font-size: 3rem;
+    text-align: left;
+}
+h2 {
+    font-family:polly-light ;
+}
+#banner span {
+    font-family:polly-bold ;
+}
+#banner p {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    color: white;
+}
+.slogan {
+    width: 500px
+}
+
+p {
+    font-family: polly-light;
+}
+nav img {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#about {
+    margin-top: 150px;
+}
+
+#banner{
+    background-image: url("../img/banner-landing-page.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+#banner a {
+    background-color: #101212;
+    color: white;
+    font-family: polly-bold;
+    padding: 1em 3em 1em 3em;
+}
+span {
+    font-family: polly-bold;
+}
+h3{
+    font-family: polly-bold;
+}
+.number1{
+    padding: 1em;
+    background-color: #75aa11;
+    border-radius: 0.5em;
+    color: white;
+
+}
+.rest-of-numbers {
+    padding: 1em;
+    background-color: #75aa11;
+    border-radius: 0.5em;
+    color: white;
+}
+
+
+.card{
+    border: none;
+}
+
+.line {
+    height: 3px;
+   
+    background-color: black;
+    display: flex;
+    margin-top: -1em;
+    background-color: #73a711;
+    
+}
+
+footer {
+    background-color: #4b5e26;
+    margin-top: 2rem;
+}
+#about span {
+    font-family: benzin;
+    font-size: 1.7rem;
+}
+#about .parrafo span {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    #logo {
+        width: 20%
+    }
+    .mockup img {
+        width: 25rem;
+        
+    }
+    #banner h2 {  
+        font-size:2.5rem;
+        text-align: center;
+    }
+    #banner p {
+    
+        font-size: 1rem;
+    }
+    .slogan {
+        width: 80%;
+    }
+        
+  }
+  .card-text {
+    vertical-align: text-top;  
+  }
+
+
+
+  @media screen and (min-width: 992px) {
+    
+    .registrate, .agrega-amigos {
+        display: flex;
+        text-align: right;
+        flex-direction: column;
+        justify-content: right ;
+        align-items:end;
+    }
+    nav img {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  } 
